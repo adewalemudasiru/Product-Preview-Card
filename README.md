@@ -26,35 +26,34 @@ Mobile Screenshot <br />
 
 ### Links
 
-- Solution URL: [Github](https://github.com/adewalemudasiru/Blog-Preview-Card)
+- Solution URL: [Github](https://github.com/adewalemudasiru/Product-Preview-Card)
 - Live Site URL: [SolutionPreview](https://adewalemudasiru.github.io/Blog-Preview-Card/)
 
 ## My process
 
-I created a div container and nested three divs inside it. The first div was used to hold the image, the second for the blog content (category text, pulish date, article title and description) and the third for the author profile/link. This allowed me to easily control and space the blog card content. I gave the container div a padding of 1.5rem and applide a display grid on the content div and gave it a gap of 1.568rem. I then used a display flex for the author div and gave it a gap of 0.75rem.
+I created a container and nested two divs inside of it. The first div was used to hold the product image and the second div the product information. I set a fixed width for the container and let the image and product div take 50% width each. I then gave the container a display flex to control the directions of the two divs. In the image div, I added the mobile and desktop image to the container and set the mobile image to display none for desktop and vise versa for mobile. I added padding, borders, font-style and sizes, and color to replicate the design.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-I learned how to properly style the the span tag.
+I learned how important specifity is in css when styling elements. I encountered some issues adding styles to the span element and was forced to use the !important property. I however, reviewed the css and made changes to apply the styles to the span element without the need of the !important property.
 
 ### Continued development
 
-Javascript is proving to be my greatest nightmare and I'm going to keep learning it. I want to also improve on my css skills and learn how to use the calc function and more ways to use flexbox and grid.
+I'm currently learning react and although I'm lagging in javascript. I'm hoping to improve on it while diving deep into react.
 
 ## Author
 
-- Website - [Adewale Mudasiru](https://www.your-site.com)
+- Website - [Adewale Mudasiru](https://github.com/adewalemudasiru)
 - Frontend Mentor - [@adewalemudasiru](https://www.frontendmentor.io/profile/adewalemudasiru)
 - Twitter - [@ade_mudasiru](https://www.twitter.com/ade_mudasiru)
 
 ## Acknowledgments
 
-ChatGPT helped me figure out how to add shadows to an element.
+ChatGPT for helping me understand css specifity.
