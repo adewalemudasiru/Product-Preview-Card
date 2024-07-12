@@ -27,7 +27,7 @@ Mobile Screenshot <br />
 ### Links
 
 - Solution URL: [Github](https://github.com/adewalemudasiru/Product-Preview-Card)
-- Live Site URL: [SolutionPreview](https://adewalemudasiru.github.io/Blog-Preview-Card/)
+- Live Site URL: [SolutionPreview](https://adewalemudasiru.github.io/Product-Preview-Card/)
 
 ## My process
 
