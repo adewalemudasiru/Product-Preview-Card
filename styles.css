@@ -82,11 +82,7 @@ span {
     width: 50%;
 }
 
-.product-card__image > .mobile-image {
-    display: none;
-}
-
-.product-card__image > .desktop-image {
+.product-card__image > .product-image img {
     height: 100%;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
@@ -179,13 +175,7 @@ span {
         width: 100%;
     }
 
-    .product-card__image > .desktop-image {
-        display: none;
-
-    }
-
-    .product-card__image > .mobile-image {
-        display: block;
+    .product-card__image > .product-image img {
         border-radius: 10px 10px 0 0;
     }
 
